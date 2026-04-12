@@ -17,7 +17,7 @@ html, body, #root {
 .header {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   padding: 22px 32px;
   border-bottom: 1px solid #e8e0d6;
   flex-shrink: 0;
@@ -229,11 +229,3 @@ html, body, #root {
 .send-btn:hover:not(:disabled) { background: #1a1714; }
 .send-btn:active:not(:disabled) { transform: scale(0.92); }
 .send-btn:disabled { opacity: 0.25; cursor: default; }
-
-.input-hint {
-  text-align: center;
-  font-size: 11px;
-  color: #c0b4aa;
-  margin-top: 9px;
-  font-weight: 300;
-}
